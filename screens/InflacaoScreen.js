@@ -28,7 +28,7 @@ export default function InflacaoScreen() {
             <Text>Valor Atual (R$)</Text>
             <TextInput
                 style={styles.input}
-                keyboardType="numeric"
+                keyboardTZype="numeric"
                 value={valorAtual}
                 onChangeText={setValorAtual}
             />
